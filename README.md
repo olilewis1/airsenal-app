@@ -1,13 +1,30 @@
 # AIrsenal
 
+## Contents
+- [Overview](#overview)
+- [Demo](#demo)
+- [Features](#features)
+- [Installation](#installation)
+- [Docker](#docker)
+- [Usage](#usage)
+- [Difficulties Encountered](#difficulties)
+- [Successes Achieved](#successes)
+- [Lessons Learned](#lessons)
+- [Next Steps](#next-steps)
+- [Contributing](#contributing)
+
+
 ![Build Status](https://github.com/alan-turing-institute/AIrsenal/actions/workflows/main.yml/badge.svg)
 
+## <a name="overview"></a>Overview
 *AIrsenal* is a package for using Machine learning to pick a Fantasy Premier League team.
 Airsenal is a powerful tool designed to streamline and enhance your fantasy football management experience. With Airsenal, users can optimize their fantasy football team selections and strategies, gaining an edge over their competition. This Airsenal project allows the user to interact with the Airsenal machine learning tool to get the best trasnfers in and out for the next three game weeks, allowing a detailed view of your starting 11 and recommended transfers in and out. This README provides an overview of the application's features, installation instructions, and usage guidelines.
 
+## <a name="demo"></a>Demo
 ### Demo 
 ![demo](./fpl-front-end/src/assets/Screenshot 2024-02-18 at 15.21.59.png)
 
+## <a name="features"></a>Features
 Features
 Optimization: Airsenal provides advanced optimization algorithms to help users select the best possible lineup based on various factors such as player statistics, fixture difficulty, and budget constraints.
 Integration: Seamlessly integrate Airsenal with popular Fantasy Premier League to import and export team data, making it easy to incorporate optimized lineups into your existing fantasy team management workflow. 
@@ -16,7 +33,7 @@ Automation: Set up scheduled optimizations to automatically update your fantasy 
 Performance Insights: Gain valuable insights into player performance trends, injury updates, and upcoming fixtures to make informed decisions and stay ahead of the competition.
 For some background information and details see https://www.turing.ac.uk/research/research-programmes/research-engineering/programme-articles/airsenal.
 
-We welcome contributions and comments - if you'd like to join the AIrsenal community please refer to our [contribution guidelines](https://github.com/alan-turing-institute/AIrsenal/blob/master/CONTRIBUTING.md)
+## <a name="installation"></a>Installation
 
 You will need Docker Desktop installed to run this application: https://www.docker.com/products/docker-desktop/
 
@@ -25,7 +42,7 @@ git clone https://github.com/alan-turing-institute/AIrsenal.git
 pip install .
 poetry install 
 ```
-
+## <a name="docker"></a>Docker
 ### Docker
 
 Build the docker-image:
@@ -82,7 +99,7 @@ Email: any fake email
 Password: Any that is long enough
 FPL: 3705355
 
-
+## <a name="usage"></a>Usage
 Usage
 Once Airsenal is set up and running, follow these steps to optimize your fantasy football team:
 
@@ -93,6 +110,7 @@ Initiate the optimization process and wait for Airsenal to generate optimized li
 Review the recommended lineup and make any necessary adjustments based on personal preferences or additional insights.
 Export the optimized lineup to your fantasy football platform or manually update your team roster.
 
+## <a name="difficulties"></a>Difficulties Encountered
 Difficulties Encountered
 Integration Issues with Typewriter Effect: Initially, integrating the Typewriter Effect library posed challenges, particularly in synchronizing its behavior with other components.
 
@@ -100,6 +118,7 @@ Error Handling with Express.js: Implementing robust error handling mechanisms in
 
 Deployment Configuration: Configuring the deployment process, particularly with Serverless Framework, took time to fine-tune and ensure smooth deployment to AWS Lambda.
 
+## <a name="successes"></a>Successes Achieved
 Successes Achieved
 Integration of Typewriter Effect: Overcame initial integration issues with Typewriter Effect and successfully incorporated it into the project, enhancing the user experience.
 
@@ -107,6 +126,7 @@ Effective Error Handling: Implemented comprehensive error handling strategies in
 
 Seamless Deployment: Configured seamless deployment using Serverless Framework, simplifying the deployment process and ensuring the project's availability on AWS Lambda.
 
+## <a name="lessons"></a>Lessons Learned
 Lessons Learned
 Persistence Pays Off: The project highlighted the importance of persistence in troubleshooting and problem-solving, particularly when integrating third-party libraries and configuring deployment pipelines.
 
@@ -114,5 +134,6 @@ Test-Driven Development (TDD) is Essential: Adopting a test-driven development a
 
 Documentation is Key: Comprehensive documentation, both for code and project setup, proved invaluable in understanding and maintaining the project over time.
 
+## <a name="next-steps"></a>Next Steps
 Next Steps
 Moving forward, the project aims to deploy on heroku using the api endpoints used currently in the docker container. The Airsenal backend code requires major upheaval, which is both daunting and exciting. I would love to explain where I currently am with this development to you. 
