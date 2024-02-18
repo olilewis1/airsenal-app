@@ -1,0 +1,66 @@
+@import "~bootstrap/scss/bootstrap";
+
+.font-link {
+  font-family: 'Bebas Neue', sans-serif;
+font-family: 'Dela Gothic One', cursive;
+
+}
+
+.App { 
+  font-family: 'Dela Gothic One', cursive;
+  background-color: #c4bfbe;
+  height: 100%;
+  .small { font-size: 10px;
+  font-weight: 100; 
+  font-family: 'Fira Code', monospace;
+color: white;}
+  .terminal { 
+    background-color: black;
+    height: 35vh;
+    overflow-x: hidden;
+    width: 100%;
+  }
+  .btn-fff{ 
+    background-color: #0f62e4;
+    color: #f65c40;
+  }
+  .form-sort { 
+    width: 75%;
+  }
+  .overflow {
+    overflow-y: scroll;
+  }
+  .typewriter-effect { 
+    overflow-x: hidden;
+  }
+  .app-center { 
+    height: 100vh;
+  }
+  .grey { 
+    background-color: #c4bfbe;
+  }
+}
+
+.typewriter-container { 
+  .arrow { 
+    color:green;
+  }
+  .terminal-command{ 
+    color: aqua;
+    font-weight: 900;
+  }
+
+}
+
+@media screen and (min-width: 625px) {
+  .App .terminal {
+    max-width: 500px;
+    
+  }
+  .App .icon { 
+    max-width: 100px;
+  }
+  .App .form-sort {
+    max-width: 250px;
+  } 
+}
