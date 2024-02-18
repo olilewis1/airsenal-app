@@ -22,7 +22,7 @@ Airsenal is a powerful tool designed to streamline and enhance your fantasy foot
 
 ## <a name="demo"></a>Demo
 ### Demo 
-![demo](/fpl-front-end/src/assets/Screenshot 2024-02-18 at 15.21.59.png)
+![demo](./Screenshot.png)
 
 ## <a name="features"></a>Features
 Features
